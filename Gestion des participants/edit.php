@@ -13,7 +13,7 @@ if (isset($_POST["submit"])) {
   $result = mysqli_query($conn, $sql);
 
   if ($result) {
-    header("Location: index.php?msg=Data updated successfully");
+    header("Location: index.php?msg=Data Mise a jour avec succé");
   } else {
     echo "Failed: " . mysqli_error($conn);
   }
@@ -38,12 +38,12 @@ if (isset($_POST["submit"])) {
   <!-- Font Awesome -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
-  <title>  Application sur la Gestion des Participation a la Formation Cloud AWS Cote d'Ivoire</title>
+  <title>Gestion des Participation</title>
 </head>
 
 <body>
   <nav class="navbar navbar-light justify-content-center fs-3 mb-5" style="background-color: gray;">
-  Application sur la Gestion des Participation a la Formation Cloud AWS Cote d'Ivoire
+  Application sur la Gestion des Participation a la Formation Cloud AWS Simplon Cote d'Ivoire
   </nav>
 
   <div class="container">
